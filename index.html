@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mood-Based Music Recommender</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎧 What's Your Mood Today?</h1>
+    <div class="moods">
+      <button onclick="recommendSong('happy')">😊 Happy</button>
+      <button onclick="recommendSong('sad')">😢 Sad</button>
+      <button onclick="recommendSong('energetic')">⚡ Energetic</button>
+      <button onclick="recommendSong('relaxed')">😌 Relaxed</button>
+    </div>
+    <div class="result" id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
